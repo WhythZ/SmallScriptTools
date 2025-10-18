@@ -85,9 +85,9 @@ def do_prepare():
     
     # 询问重命名后的名称前缀
     prefix = input("Input the name prefix you want (such as 'btn_menu_'): ").strip()
-    if not prefix:
-        print("ERROR: The prefix cannot be empty")
-        return
+    # if not prefix:
+    #     print("ERROR: The prefix cannot be empty")
+    #     return
     
     # 询问起始编号
     start_input = input("Input the starting serial number (default to use '1'): ").strip()
