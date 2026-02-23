@@ -80,8 +80,8 @@ def split_video(video_path, n, output_dir=None):
                 continue
 
         # 使用FFmpeg分割
-        # 使用 -ss 在 -i 之前更快，但可能不够精确
-        # 使用 -c copy 可以避免重新编码，速度更快
+        # 使用-ss在-i之前更快，但可能不够精确
+        # 使用-c copy可以避免重新编码，速度更快
         cmd = [
             'ffmpeg',
             '-y',  # 覆盖输出文件
